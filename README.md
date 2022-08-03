@@ -22,7 +22,7 @@
  &ensp; **_To use it : just enable it_**
  
  ## Future Update
- + To block all kinds of ads on a webpage
+ + To block all kinds of ads using mainfest V3
 
 <br />
 
@@ -30,6 +30,12 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#version-details">Version Details</a></li>
+        <ul>
+            <li><a href="#adb-10">ADB-1.0</a></li>
+            <li><a href="#adb-20">ADB-2.0</a></li>
+            <li><a href="#adb-30">ADB-3.0</a></li>
+        </ul>
     <li><a href="#getting-started">Getting Started</a></li>        
         <ul>
             <li><a href="#1-clone-the-repo">Clone The Repo</a></li>
@@ -43,6 +49,28 @@
 </details>
 
 <br/>
+
+<!-- Version Details -->
+ ## Version Details
+ 
+ <!-- ADB-1.0 -->
+ ### ADB-1.0
+ + Description: **Block Youtube Ads ONLY**
+ + Manifest Version : **3**
+ 
+ 
+ <!-- ADB-2.0 -->
+ ### ADB-2.0
+ 
+ + Description: **Block website and onClick Ads ONLY**
+ + Manifest Version : **2**
+ 
+
+ <!-- ADB-3.0 -->
+ ### ADB-3.0
+ + Yet to be made
+   + Description: **Block All kind of ads**
+   + Manifest Version : **3**
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
@@ -68,9 +96,10 @@
 ### 2: Download and Extract
  + Download the extension from <a href="https://github.com/VENGENCE7/AD-Blocker/releases"> releases </a>.
  + Download the on you need
-    + There are thwo versions:
-      + HF-1.0
-      + HF-1.0
+    + There are three versions:
+      + ADB-1.0
+      + ADB-2.0
+      + ADB-3.0 (yet to be released)
  
  
 <!-- Installations -->
