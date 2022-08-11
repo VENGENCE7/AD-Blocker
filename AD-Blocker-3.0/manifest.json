@@ -1,0 +1,63 @@
+{
+    "manifest_version": 3,
+    "name": "AD-Blocker",
+    "version": "3.0",
+    "description": "Ads are quiet annoying , hence this is created to Blocks Ads :)",
+    
+    "icons": {
+      "16": "icons/ad-blocker_16x16.png",
+      "24": "icons/ad-blocker_24x24.png",
+      "32": "icons/ad-blocker_32x32.png",
+      "48": "icons/ad-blocker.png",
+        "128": "icons/ad-blocker_128x128.png"
+    },
+
+    "declarative_net_request" : {
+        "rule_resources" : [{
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules_1.json"
+        }]
+    },
+
+    "permissions":["tabs","activeTab","declarativeNetRequest"],
+
+    "content_scripts":[{
+      "js":["Scripts/youtube-AD-Blocker.js"],
+      "run_at":"document_idle",
+      "matches":["*://*.youtube.com/*"]
+    }],
+
+
+    "host_permissions": [
+      "*://*.abcd.com/*",
+      "*://*.youtube.com/*",
+      "*://*.example.com/*",
+      "https://*.xyz.com/*",
+      "*://*.headers.com/*",
+      "*://*.doubleclick.net/*",
+      "*://partner.googleadservices.com/*",
+      "*://*.googlesyndication.com/*",
+      "*://*.googletagservices.com/*",
+      "*://*.googleadservices.com/*",
+      "*://*.google-analytics.com/*",
+      "*://*.googleadservices.com/*",
+      "*://*.zedo.com/*",
+      "*://*.adbrite.com/*",
+      "*://*.adbureau.net/*",
+      "*://*.exponential.com/*",
+      "*://*.quantserve.com/*",
+      "*://*.scorecardresearch.com/*",
+      "*://*.carbonads.net/*",
+      "*://creative.ak.fbcdn.net/*",
+      "*://*.cdn.carbonads.com/*",
+      "*://*.cdn.carbonads.net/*",
+      "*://*.cdn.doubleclick.net/*",
+      "*://*.cdn.googletagservices.com/*",
+      "*://*.cdn.googleadservices.com/*",
+      "*://*.cdn.zedo.com/*",
+      "*://.bet365.com/*",
+      "*://.w3.org/*"
+    ]
+    
+}
