@@ -45,6 +45,7 @@
         <ul>
             <li><a href="#loading-the-extension-in-browser">Load Extension</a></li>
         </ul>
+          <li><a href="#contact">Contact me</a></li>
   </ol>
 </details>
 
@@ -129,6 +130,17 @@ chrome://extensions/
 
 
  <p align="right">(<a href="#top">Back to top</a>)</p>
+ 
+ <!-- CONTACT -->
+## Contact
+
+Bhavish Anand- bhavish007anand@gmail.com
+
+Project Link: [https://github.com/VENGENCE7/TodoList](https://github.com/VENGENCE7/AD-Blocker)
+
+Github Profile : [https://github.com/VENGENCE7](https://github.com/VENGENCE7)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
  
 
 <!-- MARKDOWN LINKS & IMAGES -->
